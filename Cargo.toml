@@ -1,0 +1,13 @@
+[package]
+name = "crustword"
+version = "0.1.0"
+description = "Crusty Crosswords"
+edition = "2021"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = { version = "0.8", features = ["small_rng"] }
+unicode-width = "0.1"
+indoc = "1.0"
